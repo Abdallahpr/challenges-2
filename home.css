@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+ background-color: var(--Grey-900);
+ font-family: var(--font-family);
+    display: grid;
+    place-items: center;
+    min-height: 100dvh
+}
+
+
+main{
+    background-color: var(--Grey-800);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+img {
+  border-radius: 100%;
+  margin: 15px 100px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+
+h1,
+h2,
+a,
+p {
+    text-align: center;
+}
+
+h1 {
+    color: var(--White);
+    font-weight: 400;
+    margin: 10px;
+    font-size: 25px;
+}
+
+h2 {
+    color: var(--Green);
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+p {
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.d-1{
+    margin-top: 25px;
+}
+
+ a {
+    display: block;
+    /* width: 100%; */
+    background-color: var(--Grey-700);
+    margin: 15px 0px;
+    text-decoration: none;
+    color: var(--White);
+    padding: 15px 80px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 14px;
+ } 
+a:hover {
+    background-color: var(--Green);
+    cursor: pointer;
+    color: black;
+}
+
+.d-6 {
+    color: var(--White);
+    a {
+        display: inline-block;
+    margin: 10px 2px;
+    padding: 15px;
+    }
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --font-family: "Inter", sans-serif;
+} 
+
+@font-face {
+    font-family: "Inter" ;
+    src: url(https://fonts.google.com/specimen/Inter);
+}
